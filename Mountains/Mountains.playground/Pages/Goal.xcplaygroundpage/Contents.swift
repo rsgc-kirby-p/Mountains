@@ -13,8 +13,12 @@ import PlaygroundSupport
 //:
 //: ![assistanteditor](timeline.png "Timeline")
 //: ## Your code starts here
+
 // Create a new canvas
 let canvas = Canvas(width: 300, height: 300)
+
+
+//draw dots
 canvas.drawEllipse(centreX: 0, centreY: 300, width: 1, height: 1)
 canvas.drawEllipse(centreX: 25, centreY: 300, width: 1, height: 1)
 canvas.drawEllipse(centreX: 50, centreY: 300, width: 1, height: 1)
@@ -139,53 +143,5 @@ canvas.drawEllipse(centreX: 250, centreY: 125, width: 2, height: 2)
 canvas.drawEllipse(centreX: 275, centreY: 125, width: 2, height: 2)
 canvas.drawEllipse(centreX: 300, centreY: 125, width: 2, height: 2)
 
-canvas.fillColor = Color(hue: 100, saturation: 0, brightness: 50, alpha: 100)
-canvas.drawRectangle(bottomLeftX: 0, bottomLeftY: 0, width: 300, height: 100)
 
-
-canvas.drawRectangle(bottomLeftX: 0, bottomLeftY: 125, width: 50, height: 50)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-//: ## Template code
-//: The code below is necessary to see the result of your work in the Assistant Editor at right. Please do not remove.
 PlaygroundPage.current.liveView = canvas.imageView
