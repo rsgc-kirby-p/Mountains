@@ -15,6 +15,21 @@ import PlaygroundSupport
 //: ## Your code starts here
 // Create a new canvas
 let canvas = Canvas(width: 300, height: 300)
+canvas.drawEllipse(centreX: 0, centreY: 300, width: 1, height: 1)
+canvas.drawEllipse(centreX: 25, centreY: 300, width: 1, height: 1)
+canvas.drawEllipse(centreX: 50, centreY: 300, width: 1, height: 1)
+canvas.drawEllipse(centreX: 75, centreY: 300, width: 1, height: 1)
+canvas.drawEllipse(centreX: 100, centreY: 300, width: 1, height: 1)
+canvas.drawEllipse(centreX: 125, centreY: 300, width: 1, height: 1)
+canvas.drawEllipse(centreX: 150, centreY: 300, width: 1, height: 1)
+canvas.drawEllipse(centreX: 175, centreY: 300, width: 1, height: 1)
+canvas.drawEllipse(centreX: 200, centreY: 300, width: 1, height: 1)
+canvas.drawEllipse(centreX: 225, centreY: 300, width: 1, height: 1)
+canvas.drawEllipse(centreX: 250, centreY: 300, width: 1, height: 1)
+canvas.drawEllipse(centreX: 275, centreY: 300, width: 1, height: 1)
+canvas.drawEllipse(centreX: 300, centreY: 300, width: 1, height: 1)
+
+//second row
 canvas.drawEllipse(centreX: 0, centreY: 275, width: 2, height: 2)
 canvas.drawEllipse(centreX: 25, centreY: 275, width: 2, height: 2)
 canvas.drawEllipse(centreX: 50, centreY: 275, width: 2, height: 2)
@@ -29,7 +44,7 @@ canvas.drawEllipse(centreX: 250, centreY: 275, width: 2, height: 2)
 canvas.drawEllipse(centreX: 275, centreY: 275, width: 2, height: 2)
 canvas.drawEllipse(centreX: 300, centreY: 275, width: 2, height: 2)
 
-//second row
+//third row
 canvas.drawEllipse(centreX: 0, centreY: 250, width: 2, height: 2)
 canvas.drawEllipse(centreX: 25, centreY: 250, width: 2, height: 2)
 canvas.drawEllipse(centreX: 50, centreY: 250, width: 2, height: 2)
@@ -45,7 +60,7 @@ canvas.drawEllipse(centreX: 275, centreY: 250, width: 2, height: 2)
 canvas.drawEllipse(centreX: 300, centreY: 250, width: 2, height: 2)
 
 
-//third row
+//fourth row
 canvas.drawEllipse(centreX: 0, centreY: 225, width: 2, height: 2)
 canvas.drawEllipse(centreX: 25, centreY: 225, width: 2, height: 2)
 canvas.drawEllipse(centreX: 50, centreY: 225, width: 2, height: 2)
@@ -60,7 +75,7 @@ canvas.drawEllipse(centreX: 250, centreY: 225, width: 2, height: 2)
 canvas.drawEllipse(centreX: 275, centreY: 225, width: 2, height: 2)
 canvas.drawEllipse(centreX: 300, centreY: 225, width: 2, height: 2)
 
-//fourth row
+//fifth row
 canvas.drawEllipse(centreX: 0, centreY: 200, width: 2, height: 2)
 canvas.drawEllipse(centreX: 25, centreY: 200, width: 2, height: 2)
 canvas.drawEllipse(centreX: 50, centreY: 200, width: 2, height: 2)
@@ -76,7 +91,7 @@ canvas.drawEllipse(centreX: 275, centreY: 200, width: 2, height: 2)
 canvas.drawEllipse(centreX: 300, centreY: 200, width: 2, height: 2)
 
 
-//fifth row
+//sixth row
 canvas.drawEllipse(centreX: 0, centreY: 175, width: 2, height: 2)
 canvas.drawEllipse(centreX: 25, centreY: 175, width: 2, height: 2)
 canvas.drawEllipse(centreX: 50, centreY: 175, width: 2, height: 2)
@@ -93,7 +108,7 @@ canvas.drawEllipse(centreX: 300, centreY: 175, width: 2, height: 2)
 
 
 
-//sixth row
+//seventh row
 canvas.drawEllipse(centreX: 0, centreY: 150, width: 2, height: 2)
 canvas.drawEllipse(centreX: 25, centreY: 150, width: 2, height: 2)
 canvas.drawEllipse(centreX: 50, centreY: 150, width: 2, height: 2)
@@ -109,7 +124,7 @@ canvas.drawEllipse(centreX: 275, centreY: 150, width: 2, height: 2)
 canvas.drawEllipse(centreX: 300, centreY: 150, width: 2, height: 2)
 
 
-//seventh row
+//eighth row
 canvas.drawEllipse(centreX: 0, centreY: 125, width: 2, height: 2)
 canvas.drawEllipse(centreX: 25, centreY: 125, width: 2, height: 2)
 canvas.drawEllipse(centreX: 50, centreY: 125, width: 2, height: 2)
@@ -124,9 +139,28 @@ canvas.drawEllipse(centreX: 250, centreY: 125, width: 2, height: 2)
 canvas.drawEllipse(centreX: 275, centreY: 125, width: 2, height: 2)
 canvas.drawEllipse(centreX: 300, centreY: 125, width: 2, height: 2)
 
-canvas.color
-canvas.drawRectangle(bottomLeftX: 0, bottomLeftY: 50, width: 300, height: 50)
-canvas.drawRectangle(bottomLeftX: 0, bottomLeftY: 0, width: 300, height: 50)
+canvas.fillColor = Color(hue: 100, saturation: 0, brightness: 50, alpha: 100)
+canvas.drawRectangle(bottomLeftX: 0, bottomLeftY: 0, width: 300, height: 100)
+
+
+canvas.drawRectangle(bottomLeftX: 0, bottomLeftY: 125, width: 50, height: 50)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
